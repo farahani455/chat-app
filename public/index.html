@@ -5,15 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat app</title>
     <script src="socket.io/socket.io.js"></script>
-    <script>
-        var socket = io();
-        socket.on("connect",()=>{
-            console.log("New User Connected")
-        });
-        socket.on("disconnect",()=>{
-            console.log("User Disconnect")
-        })
-    </script>
+    <script src="js/index.js"></script>
 </head>
 <body>
     Server is ready
